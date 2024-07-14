@@ -1,7 +1,7 @@
 keras==3.4.1
 matplotlib==3.9.1
-numpy==2.0.0
+numpy==1.26.0
 pandas==2.2.2
 scikit-learn==1.5.1
 scikit-image==0.22.0
-tensorflow==2.15.0
+tensorflow==2.16.1
