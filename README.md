@@ -1,11 +1,10 @@
 # Airbus Image segmentation
 
 This repository contains code for the Airbus Ship Detection Challenge on Kaggle, which involves segmenting ships in satellite images.
-For solving this problem were used U-net model architecture and dice score for evaluation.
+For solving this problem U-net model architecture was used and dice score for evaluation.
 
 ## Installation
 To get started with this project, clone the repository and install the required dependencies:
-
 ```
 git clone https://github.com/khrystia-k/airbus-image-segmentation.git
 cd airbus-image-segmentation
@@ -26,3 +25,12 @@ To detect airbuses using the model:
 ![image](https://github.com/user-attachments/assets/0c012dbb-7999-4056-9ae2-ba89c05a64d8)
 
 ![image](https://github.com/user-attachments/assets/db0857f7-36e7-403c-a595-baae9f51a2cf)
+
+## Files
+* ```airbus-eda.ipynb``` - Explanatory Data Analysis 
+* ``` utilities.py``` - utility functions
+* ```model.py ``` - model architecture
+* ``` model-training.py``` - model training
+* ``` model-inference.py ``` - testing model
+
+
