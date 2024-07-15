@@ -1,16 +1,14 @@
 # Airbus Image segmentation
 
-This repository contains code for the Airbus Ship Detection Challenge on Kaggle, which involves segmenting ships in satellite images.
-For solving this problem U-net model architecture was used and dice score for evaluation.
+This repository contains code for the [Airbus Ship Detection Challenge](https://www.kaggle.com/competitions/airbus-ship-detection/overview) on Kaggle, which involves segmenting ships in satellite images.
 
-## Installation
-To get started with this project, clone the repository and install the required dependencies:
-```
-git clone https://github.com/khrystia-k/airbus-image-segmentation.git
-cd airbus-image-segmentation
-pip install -r requirements.txt
-```
-Ensure you have the necessary data by downloading it from the Kaggle competition page and placing it in the data/ directory.
+## Solution
+
+First, EDA was performed and the dataset was found to be very unbalanced. To solve this problem, the data was balanced (a dataset was formed with the same number of images without ships, with one ship, and so on)
+Next, all masks were decoded from  Run Length Encoding  (RLE).
+The images and masks were resized to a standard size of 256x256 pixels for ease of processing. 
+
+For solving this problem U-net model architecture, with (classic, with the addition of Batch Normalization)  was used and dice score for evaluation.
 
 ## Model usage
 
