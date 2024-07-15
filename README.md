@@ -4,11 +4,11 @@ This repository contains code for the [Airbus Ship Detection Challenge](https://
 
 ## Solution
 
-First, EDA was performed and the dataset was found to be very unbalanced. To solve this problem, the data was balanced (a dataset was formed with the same number of images without ships, with one ship, and so on)
+First, EDA was performed and the dataset was found to be very unbalanced. To solve this problem, the data was balanced (a dataset was formed with the same number of images without ships, with one ship, and so on).
 Next, all masks were decoded from  Run Length Encoding  (RLE).
 The images and masks were resized to a standard size of 256x256 pixels for ease of processing. 
 
-For solving this problem U-net model architecture, with (classic, with the addition of Batch Normalization)  was used and dice score for evaluation.
+For solving this problem U-net model architecture, with (classic, with the addition of Batch Normalization) was used and dice score for evaluation.
 
 ## Model usage
 
