@@ -15,7 +15,7 @@ For solving this problem U-net model architecture, with (classic, with the addit
 To detect airbuses using the model:
 
 1. Download model weights https://drive.google.com/file/d/1Ltpv7t9SETnv7FxCe21rZcGqHqyws-XL/view?usp=sharing
-2. Run ```inference.py```
+2. Run ```model-inference.py```
 
 ## Example of prediction
 ![image](https://github.com/user-attachments/assets/d72808d7-3eb7-4615-84be-171e26ca1b3c)
